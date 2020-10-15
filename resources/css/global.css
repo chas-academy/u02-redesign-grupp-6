@@ -3,6 +3,11 @@
 /* if a customized css is needed for the html page your are working on please do inline style inside the html page*/
 /* This is a sugestion for inline styling https://www.codecademy.com/articles/html-inline-styles */
 
+/*white: #ffffff;
+  black: rgba(0, 0, 0, 0.87);
+  themeBlack: #333 Myh theme color
+  themeYellow: #ff0//Myh theme color */
+
 html {
   font-size: 16px;
 }
@@ -16,5 +21,81 @@ body {
   line-height: 1.5;
   letter-spacing: 0.3px;
   font-family: "Roboto", sans-serif;
-  color: rgba(0, 0, 0, 0.87);
+  color: #333;
+}
+
+.section {
+  padding: 80px 0;
+  margin: 0 0 32px;
+}
+.section h2 {
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0 0 16px;
+}
+
+.section ul {
+  font-size: 20px !important;
+  max-width: 36rem;
+}
+
+.section img {
+  max-height: 400px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.container.contentContainer {
+  min-height: 90vh;
+  padding-top: 150px;
+}
+
+@media only screen and (max-width: 767px) {
+  .container.contentContainer {
+    padding-top: 100px;
+  }
+}
+
+.fullWidthContainer {
+  width: 100%;
+}
+.fullWidthContainer.ContentContainer {
+  padding-top: 80px;
+}
+@media only screen and (max-width: 1082px) {
+  .fullWidthContainer {
+    padding-top: 114px !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fullWidthContainer {
+    padding-top: 0 !important;
+  }
+}
+
+.textCenter {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
 }

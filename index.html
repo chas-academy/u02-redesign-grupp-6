@@ -10,6 +10,12 @@
     />
     <link rel="stylesheet" href="./resources/css/global.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
     <script>
       $(function () {
         $("#navigation").load("./resources/common/navbar.html");
@@ -20,7 +26,82 @@
   <body>
     <!-- We will put navbar here when we submit our work-->
     <div id="navigation"></div>
-    Hemsida
+    <div class="fullWidthContainer">
+      <img
+        style="max-height: 800px; width: 100%"
+        src="./resources/img/fullwidth.jpg"
+        alt="yrkeshögskolan"
+      />
+    </div>
+    <div class="container contentContainer">
+      <div class="section">
+        <div class="row" style="display: flex ;flex-wrap: wrap">
+          <div class="column" style="flex: 50%">
+            <h2>Ansök om att bedriva utbildning</h2>
+            <ul style="line-height: 4em">
+              <li>
+                <i class="fas fa-pencil-alt"></i
+                ><a href="#"> Yrkeshögskoleutbildning</a>
+              </li>
+              <li>
+                <i class="fas fa-pencil-alt"></i
+                ><a href="#"> Konst- och kulturutbildning</a>
+              </li>
+              <li>
+                <i class="fas fa-pencil-alt"></i><a href="#"> Tolkutbildning</a>
+              </li>
+              <li>
+                <i class="fas fa-pencil-alt"></i
+                ><a href="#"> Utbildning med endast tillsyn</a>
+              </li>
+            </ul>
+          </div>
+          <div class="column" style="flex: 50%">
+            <img src="./resources/img/apply.png" alt="Application" />
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="row" style="display: flex; flex-wrap: wrap">
+          <div class="column" style="flex: 50%">
+            <img src="./resources/img/study.png" alt="Study" />
+          </div>
+          <div class="column" style="flex: 50%">
+            <h2>För dig som bedriver utbildning</h2>
+            <ul style="line-height: 2.5em">
+              <li>
+                <i class="far fa-comment-dots"></i>
+                <a href="#"> Frågor och svar med anledning av coronaviruset</a>
+              </li>
+              <li>
+                <i class="far fa-comment-dots"></i>
+                <a href="#">
+                  Distansstöd – för anordnare som ställer om till
+                  distansundervisning</a
+                >
+              </li>
+              <li>
+                <i class="far fa-comment-dots"></i>
+                <a href="#"> Yrkeshögskoleutbildning</a>
+              </li>
+              <li>
+                <i class="far fa-comment-dots"></i>
+                <a href="#"> Konst- och kulturutbildning</a>
+              </li>
+              <li>
+                <i class="far fa-comment-dots"></i>
+                <a href="#"> Tolkutbildning</a>
+              </li>
+              <li>
+                <i class="far fa-comment-dots"></i>
+                <a href="#"> Utbildning med endast tillsyn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
     <div id="footer"></div>
     <!-- We will put footer here when we submit our work-->
   </body>
