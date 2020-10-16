@@ -15,7 +15,7 @@ html {
 
 hr {
   margin: 10px;
-
+  border-top: 5px double;
 }
 
 header {
@@ -173,9 +173,10 @@ ul {
 }
 
 #footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
+  clear: both;
 }
 
 .contact {
