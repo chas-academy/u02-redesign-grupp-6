@@ -10,12 +10,11 @@
 
 html {
   font-size: 16px;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
 
 hr {
   margin: 10px;
-
 }
 
 header {
@@ -35,10 +34,8 @@ header {
   margin: 10px;
 }
 
-
-
 .dropdown-btn {
-  background-color: #C9BE87;
+  background-color: #c9be87;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -57,7 +54,7 @@ header {
   position: absolute;
   background-color: #dfdfdf;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   margin: -10px 10px;
   text-align: left;
@@ -75,8 +72,6 @@ a {
 a:hover {
   color: rgb(165, 165, 165);
 }
-
-
 
 body {
   margin: 0;
@@ -173,9 +168,11 @@ ul {
 }
 
 #footer {
-  position: absolute;
+  position: fixed;
+  left: 0;
   bottom: 0;
   width: 100%;
+  background-color: #eeeeee;
 }
 
 .contact {
@@ -187,7 +184,6 @@ ul {
 .contact h6 {
   font-size: 16px;
   font-style: normal;
-  border-bottom: #C9BE87 solid 5px;
+  border-bottom: #c9be87 solid 5px;
   display: inline;
 }
-
