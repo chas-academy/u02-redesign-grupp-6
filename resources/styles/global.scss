@@ -3,11 +3,6 @@
 /* if a customized css is needed for the html page your are working on please do inline style inside the html page*/
 /* This is a sugestion for inline styling https://www.codecademy.com/articles/html-inline-styles */
 
-/*white: #ffffff;
-  black: rgba(0, 0, 0, 0.87);
-  themeBlack: #333 Myh theme color
-  themeYellow: #ff0//Myh theme color */
-
 html {
   font-size: 16px;
   background-color: #EEEEEE;
@@ -87,29 +82,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.3px;
   font-family: "Roboto", sans-serif;
-  color: #333;
-}
-
-.section {
-  padding: 40px 0;
-  margin: 0 0 32px;
-}
-
-.section h2 {
-  font-size: 32px;
-  font-weight: 800;
-  margin: 0 0 16px;
-}
-
-.section ul {
-  font-size: 20px !important;
-  max-width: 36rem;
-}
-
-.section img {
-  max-height: 400px;
-  border-radius: 16px;
-  
+  color: $primary;
 }
 
 h1,
@@ -118,12 +91,12 @@ h3,
 h4,
 h5,
 h6 {
-  color: #333;
+  color: $primary;
 }
 
 a {
   text-decoration: none;
-  color: #333;
+  color: $primary;
 }
 
 .elevation {
