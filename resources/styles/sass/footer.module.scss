@@ -1,0 +1,25 @@
+ul {
+  list-style-type: none;
+}
+
+#footer {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #eeeeee;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  text-align: center;
+
+}
+
+.contact h6 {
+  font-size: 16px;
+  font-style: normal;
+  border-bottom: #c9be87 solid 5px;
+  display: inline;
+}
