@@ -1,0 +1,347 @@
+/* this is a global css file where we have all our css that could be reused in different html pages */
+/* navbar css and footer css shoud come here and all other resusable css */
+/* if a customized css is needed for the html page your are working on please do inline style inside the html page*/
+/* This is a sugestion for inline styling https://www.codecademy.com/articles/html-inline-styles */
+html {
+  font-size: 16px;
+  background-color: #eeeeee;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 0.875rem;
+  overflow-x: hidden !important;
+  line-height: 1.5;
+  letter-spacing: 0.3px;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333;
+}
+
+.elevation {
+  -webkit-box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container.contentContainer {
+  min-height: 90vh;
+  padding-top: 100px;
+}
+
+@media only screen and (max-width: 767px) {
+  .container.contentContainer {
+    padding-top: 100px;
+  }
+}
+
+.fullWidthContainer {
+  width: 100%;
+}
+
+.fullWidthContainer.ContentContainer {
+  padding-top: 80px;
+}
+
+@media only screen and (max-width: 1082px) {
+  .fullWidthContainer {
+    padding-top: 114px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .fullWidthContainer {
+    padding-top: 0 !important;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+#footer {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #eeeeee;
+}
+
+.contact {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
+  text-align: center;
+}
+
+.contact h6 {
+  font-size: 16px;
+  font-style: normal;
+  border-bottom: #c9be87 solid 5px;
+  display: inline;
+}
+
+hr {
+  margin: 10px;
+}
+
+header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+#logo {
+  margin: 10px;
+  max-width: 450px;
+}
+
+.header-nav {
+  float: right;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  margin: 10px;
+}
+
+.dropdown-btn {
+  background-color: #c9be87;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  margin: 10px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  list-style: none;
+  display: none;
+  position: absolute;
+  background-color: #dfdfdf;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin: -10px 10px;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #a5a5a5;
+}
+
+.section {
+  padding: 40px 0;
+  margin: 0 0 32px;
+}
+
+.section h2 {
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0 0 16px;
+}
+
+.section ul {
+  font-size: 20px !important;
+  max-width: 36rem;
+}
+
+.section img {
+  max-height: 400px;
+  border-radius: 16px;
+}
+
+.section i {
+  color: #08C;
+}
+
+.section a {
+  text-decoration: none;
+  color: #333;
+}
+
+.section a:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #333;
+          text-decoration-color: #333;
+}
+
+.news {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.news-container {
+  position: relative;
+  width: 100%;
+}
+
+.news a:hover {
+  -webkit-text-decoration-color: #ffffff;
+          text-decoration-color: #ffffff;
+}
+
+.textBox {
+  display: block;
+  left: 50%;
+  max-height: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 100;
+}
+
+.textBox h1 {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.textBox p {
+  text-align: left;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.textBox .subtitle {
+  color: #fbf7f0;
+  font-style: italic;
+}
+
+#blue-subtext a {
+  font-size: 18px;
+  color: #08C !important;
+}
+
+#blue-subtext :hover {
+  -webkit-text-decoration-color: #08C;
+          text-decoration-color: #08C;
+}
+
+.h-line {
+  background-color: #949292;
+  height: 30%;
+  padding: 10px 1%;
+  border-radius: 10px;
+}
+
+.h-img {
+  width: 80%;
+  height: auto;
+  border-radius: 5%;
+  padding-right: 1px;
+  padding-left: 2%;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper .sidebar {
+  position: relative;
+  width: 200px;
+  height: auto;
+  padding: 2px 2px;
+}
+
+.sidebar {
+  border-radius: 10px;
+  display: block;
+  padding-top: 2px;
+  width: 30%;
+}
+
+.menu-sidebar li {
+  background-color: #adadad;
+  border-radius: 10px;
+  height: 20%;
+  list-style: none;
+  padding-top: 5px;
+  margin-top: 20px;
+  text-align: center;
+  display: block;
+}
+
+.menu-sidebar a:hover {
+  background-color: grey;
+  color: white;
+  border-radius: 5px;
+}
+
+.menu-sidebar li a:link {
+  font-size: 16px;
+}
+
+.s-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  padding-left: 1px;
+}
+
+.article {
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 2%;
+  padding-top: 1%;
+  margin: 2% 2%;
+}
+
+.content a:link {
+  color: blue;
+  font-style: italic;
+}
+/*# sourceMappingURL=style.css.map */
