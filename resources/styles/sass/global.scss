@@ -1,0 +1,137 @@
+/* this is a global css file where we have all our css that could be reused in different html pages */
+/* navbar css and footer css shoud come here and all other resusable css */
+/* if a customized css is needed for the html page your are working on please do inline style inside the html page*/
+/* This is a sugestion for inline styling https://www.codecademy.com/articles/html-inline-styles */
+
+html {
+  font-size: 16px;
+  background-color: #eeeeee;
+}
+
+
+.textCenter {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 0.875rem;
+  overflow-x: hidden !important;
+  line-height: 1.5;
+  letter-spacing: 0.3px;
+  font-family: "Roboto", sans-serif;
+  color: $primary;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $primary;
+}
+
+.elevation {
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container.contentContainer {
+  min-height: 90vh;
+  padding-top: 100px;
+}
+
+@media only screen and (max-width: 767px) {
+  .container.contentContainer {
+    padding-top: 100px;
+  }
+}
+
+.fullWidthContainer {
+  width: 100%;
+}
+.fullWidthContainer.ContentContainer {
+  padding-top: 80px;
+}
+@media only screen and (max-width: 1082px) {
+  .fullWidthContainer {
+    padding-top: 114px !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fullWidthContainer {
+    padding-top: 0 !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
