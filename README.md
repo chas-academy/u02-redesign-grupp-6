@@ -1,9 +1,9 @@
 # myh.se
 ### A redesign of myh.se - the cooler version
 This is a static website for myh.se which includes html and css files only.
-Welcome to browse the website using navigation bar.
+Since we are using scss for this project, you should pre-install sass to your local machine.
 
-## Installation
+## Install SASS
 
 ### Install anywhere (standalone)
 
