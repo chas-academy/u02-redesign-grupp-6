@@ -2,19 +2,17 @@
 /* navbar css and footer css shoud come here and all other resusable css */
 /* if a customized css is needed for the html page your are working on please do inline style inside the html page*/
 /* This is a sugestion for inline styling https://www.codecademy.com/articles/html-inline-styles */
+@import "./variables.scss";
 
 html {
   font-size: 16px;
-  background-color: #eeeeee;
-}
-
-
-.textCenter {
-  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   margin: 0;
+  background-color: #eeeeee;
   padding: 0;
   font-weight: 400;
   font-size: 0.875rem;
@@ -23,6 +21,10 @@ body {
   letter-spacing: 0.3px;
   font-family: "Roboto", sans-serif;
   color: $primary;
+}
+
+.textCenter {
+  text-align: center;
 }
 
 h1,
@@ -50,6 +52,14 @@ h6 {
   padding-top: 100px;
 }
 
+.white {
+  background: $white;
+}
+
+.light-gray {
+  background: rgba(0, 0, 0, 0.024);
+}
+
 @media only screen and (max-width: 767px) {
   .container.contentContainer {
     padding-top: 100px;
@@ -63,75 +73,12 @@ h6 {
   padding-top: 80px;
 }
 @media only screen and (max-width: 1082px) {
-  .fullWidthContainer {
-    padding-top: 114px !important;
-  }
+  // .fullWidthContainer {
+  //   padding-top: 114px !important;
+  // }
 }
 @media only screen and (max-width: 767px) {
   .fullWidthContainer {
     padding-top: 0 !important;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
