@@ -1,6 +1,17 @@
+@import "./variables.scss";
+.headerImg {
+  max-height: 700px;
+  width: 100%;
+}
 .section {
   padding: 40px 0;
   margin: 0 0 32px;
+  .row img {
+    @media only screen and (max-width: 768px) {
+      display: none;
+      text-align: center;
+    }
+  }
 }
 
 .section h2 {
@@ -33,10 +44,41 @@
   text-decoration-color: $primary;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 50%;
+}
+
+.follow-us {
+  ul {
+    margin: 0 auto;
+  }
+
+  ul li {
+    display: inline;
+  }
+  i {
+    color: #ff0;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #333;
+    margin: 20px;
+  }
+}
+
 .news {
   display: flex;
   flex-direction: row;
   align-items: center;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+.news .column {
+  flex: 60%;
 }
 
 .news-container {
@@ -56,23 +98,23 @@
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
   z-index: 100;
+  text-align: center;
   h1 {
     color: $white;
     font-weight: 500;
-
-    // @media only screen and (max-width: 600px) {
-    //   font-size: 3.7vw;
-    // }
+    @media only screen and (max-width: 768px) {
+      font-size: 3vw;
+    }
   }
   p {
     text-align: left;
     color: $white;
+    width: 50ch;
     font-size: 24px;
-    // @media only screen and (max-width: 600px) {
-    //   font-size: 3vw;
-    // }
+    @media only screen and (max-width: 768px) {
+      font-size: 3vw;
+    }
   }
   .subtitle {
     color: #fbf7f0;
@@ -81,10 +123,27 @@
 }
 
 #blue-subtext a {
-    font-size: 18px;
-    color: $secondary !important; 
+  font-size: 18px;
+  color: $secondary !important;
 }
 
 #blue-subtext :hover {
-    text-decoration-color: $secondary;
+  text-decoration-color: $secondary;
+}
+
+.side-bar {
+  flex: 40%;
+  h1 {
+    text-align: center;
   }
+  a:hover {
+    text-decoration-color: $black;
+  }
+  li {
+    font-size: 14px;
+    width: 40ch;
+  }
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
