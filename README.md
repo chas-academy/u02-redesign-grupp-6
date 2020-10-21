@@ -19,7 +19,7 @@ If you use the [Homebrew package manager](https://brew.sh/) for Mac OS X or Linu
 brew install sass/sass/sass
 ```
 
-## How to run
+## How to compile scss files to css
 From the ```styles ``` directory, run:
 ```bash
 sass --watch style.scss:style.css
