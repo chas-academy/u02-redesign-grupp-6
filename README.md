@@ -20,10 +20,15 @@ brew install sass/sass/sass
 ```
 
 ## How to compile scss files to css
-From the ```styles ``` directory, run:
+The style.scss file includes all our style sheets. If you do not need to see your live changes in scss files, simply go to the ```styles ``` directory, run:
 ```bash
 sass --watch style.scss:style.css
 ```
+In this way, you might need to run this command above every time when you want to see the updates in your css changes. This might be annoying for many of you. Instead, go to the ```resources``` directory which locates in the root folder, run:
+```bash
+sass --watch styles/:styles/
+```
+Now you should be able to see your live changes in all static web pages if you have any updates in the related css files. 
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
