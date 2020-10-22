@@ -27,3 +27,12 @@ ul {
   }
 
 }
+
+@media screen and (max-width: 415px) {
+  .contact {
+    font-size: 10px;
+    h6 {
+      font-size: 12px;
+    }
+  }
+}
