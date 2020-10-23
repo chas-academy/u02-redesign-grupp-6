@@ -21,9 +21,12 @@ header {
 
 .dropdown-content {
   text-align: justify;
+  margin-right: 10px;
   font-weight: bold;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-links {
@@ -42,8 +45,26 @@ header {
 }
 
 @media screen and (max-width: 415px) {
+
   header {
-    display: inline;
+      display: grid;
+      grid-template-columns: 1fr;
+    #logo {
+      max-width: 350px;
+    }
+    .header-nav {
+      font-size: 10px;
+      display: flex;
+      flex-direction: row;
+      float: left;
+      .nav-links {
+        margin: 3px;
+        text-align: left;
+      }
+    }
+    .search-bar {
+      margin: 10px;
+    }
   }
 
   .dropdown-btn {
@@ -70,6 +91,7 @@ header {
     z-index: 1;
     margin: -10px 10px;
     text-align: left;
+    font-weight: normal;
   }
 
   .dropdown:hover .dropdown-content {
