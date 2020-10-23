@@ -1,7 +1,5 @@
 /* this is a global css file where we have all our css that could be reused in different html pages */
-/* navbar css and footer css shoud come here and all other resusable css */
-/* if a customized css is needed for the html page your are working on please do inline style inside the html page*/
-/* This is a sugestion for inline styling https://www.codecademy.com/articles/html-inline-styles */
+
 @import "./variables.scss";
 
 html {
@@ -72,11 +70,7 @@ h6 {
 .fullWidthContainer.ContentContainer {
   padding-top: 80px;
 }
-@media only screen and (max-width: 1082px) {
-  // .fullWidthContainer {
-  //   padding-top: 114px !important;
-  // }
-}
+
 @media only screen and (max-width: 767px) {
   .fullWidthContainer {
     padding-top: 0 !important;
