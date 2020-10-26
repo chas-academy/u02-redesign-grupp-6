@@ -44,10 +44,14 @@
     margin-top: 0%;
     margin-right: 0%;
   }
+
+  ul li {
+    display: inline;
+  }
   
   .side-list li {
     background-color: rgb(170, 168, 168);
-    display: block;  
+    display: inline-block;  
     border-radius: 10px;
     list-style: none;
     border-radius: 10px;
