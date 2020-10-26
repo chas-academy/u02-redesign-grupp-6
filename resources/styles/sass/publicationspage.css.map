@@ -1,1 +1,9 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"publicationspage.css"}
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "publicationspage.scss"
+    ],
+    "names": [],
+    "file": "publicationspage.css"
+}
