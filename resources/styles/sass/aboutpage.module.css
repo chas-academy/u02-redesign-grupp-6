@@ -1,0 +1,32 @@
+.om-oss-header {
+  text-align: center;
+}
+
+.om-oss {
+  margin: 3em;
+}
+
+.about-link {
+  display: block;
+  text-align: center;
+}
+
+.pencil-img {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (min-width: 600px) {
+  .pencil-img {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+  }
+
+  .about-link {
+    text-align: left;
+    margin: 3em;
+  }
+}
+
+/*# sourceMappingURL=aboutpage.module.css.map */
