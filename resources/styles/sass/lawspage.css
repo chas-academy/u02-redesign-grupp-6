@@ -1,20 +1,22 @@
 .main-art {
   margin: 15px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .headline {
-  background-color: #aaa8a8;
-  padding: 1% 2%;
-  margin: 2%;
+  background-color: #cecece;
+  max-width: 100%;
   border-radius: 10px;
-  width: 100%;
+  margin: 2%;
+  margin-top: 2px;
+  padding: 2%;
 }
 
 .art-1 {
-  display: flex;
-  flex-flow: row wrap;
-  text-align: center;
+  display: inline;
+  position: center;
 }
 
 .column-img {
@@ -26,12 +28,8 @@
 }
 
 .sidebar {
-  max-width: 200px;
-  margin-top: 1px;
-  margin-left: 75px;
-  position: relative;
-  display: flex;
-  flex-flow: row wrap;
+  display: inline-block;
+  position: absolute;
 }
 
 a {
@@ -48,9 +46,13 @@ a {
   margin-right: 0%;
 }
 
+ul li {
+  display: inline;
+}
+
 .side-list li {
   background-color: #aaa8a8;
-  display: block;
+  display: inline-block;
   border-radius: 10px;
   list-style: none;
   border-radius: 10px;
@@ -89,43 +91,47 @@ a {
 
 @media only screen and (max-width: 375px) {
   .main-art {
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-
   .column-img {
     max-width: 200px;
     height: auto;
   }
 }
+
 @media only screen and (max-width: 425px) {
   .main-art {
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-
   .column-img {
     max-width: 300px;
     height: auto;
   }
 }
+
 @media only screen and (max-width: 767px) {
   .main-art {
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
-
   .column-img {
     max-width: 700px;
     height: auto;
   }
-
   .headline {
     max-width: 700px;
   }
 }
+
 @media only screen and (max-width: 1082px) {
   .column-img {
     max-width: 600px;
     height: auto;
   }
 }
-
 /*# sourceMappingURL=lawspage.css.map */
