@@ -14,25 +14,25 @@ ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   text-align: center;
-}
-.contact h6 {
-  font-size: 16px;
-  font-style: normal;
-  border-bottom: #c9be87 solid 5px;
-  display: inline;
-  color: black;
-}
-.contact a:hover {
-  color: gray;
+  h6 {
+    font-size: 16px;
+    font-style: normal;
+    border-bottom: #c9be87 solid 5px;
+    display: inline;
+    color: black;
+
+  }
+  a:hover {
+    color: gray;
+  }
+
 }
 
 @media screen and (max-width: 415px) {
   .contact {
     font-size: 10px;
-  }
-  .contact h6 {
-    font-size: 12px;
+    h6 {
+      font-size: 12px;
+    }
   }
 }
-
-/*# sourceMappingURL=footer.module.css.map */

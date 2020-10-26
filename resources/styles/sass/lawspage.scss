@@ -1,0 +1,127 @@
+.main-art {
+    margin: 15px;
+    align-items: center;
+  }
+  
+  .headline{
+    background-color: rgb(206, 206, 206);
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 2%;
+    margin-top: 2px;
+    padding: 2%;
+  }
+  
+  .art-1 {
+    display: inline;
+    position: center;
+  }
+  
+  .column-img {
+    margin: 3%;
+    margin-top: 1px;
+    padding: 0%;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .sidebar {
+    display: inline-block;
+    position: absolute;
+
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .side-list {
+    display: block;
+  }
+  
+  .side-list .menu {
+    margin-top: 0%;
+    margin-right: 0%;
+  }
+  
+  .side-list li {
+    background-color: rgb(170, 168, 168);
+    display: block;  
+    border-radius: 10px;
+    list-style: none;
+    border-radius: 10px;
+    padding: 5%;
+    margin: 3%;
+    margin-right: 0%;
+  }
+  .side-list .menu li a:hover {
+      background-color: rgb(209, 207, 207);
+      border-radius: 5px;
+      color: yellow;
+      padding: 2px;
+    }
+  
+  .side-img {
+    max-width: 400px;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-top: 2px;
+  }
+  
+  .art-2 {
+    background-color: rgb(206, 206, 206);
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 2%;
+    margin-top: 2px;
+    padding: 2%;
+  }
+  
+  .art-2 a {
+    color: blue;
+    font-style: italic;
+  }
+  
+  @media only screen and (max-width: 375px){
+    .main-art{
+      align-items: center;
+    }
+    
+    .column-img {
+    max-width: 200px;
+    height: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 425px){
+    .main-art{
+      align-items: center;
+    }
+    
+    .column-img {
+    max-width: 300px;
+    height: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 767px){
+    .main-art{
+      align-items: center;
+    }
+    
+    .column-img {
+      max-width: 700px;
+      height: auto;
+    }
+    .headline {
+      max-width: 700px;
+    }
+  }
+  
+  @media only screen and (max-width: 1082px){
+    .column-img {
+      max-width: 600px;
+      height: auto;
+    }
+  }

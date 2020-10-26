@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "businesspage.module.scss"
-    ],
-    "names": [],
-    "file": "businesspage.module.css"
-}
+{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"businesspage.module.css"}

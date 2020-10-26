@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "newspage.scss"
-    ],
-    "names": [],
-    "file": "newspage.css"
-}
+{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"newspage.css"}

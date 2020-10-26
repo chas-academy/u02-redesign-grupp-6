@@ -32,7 +32,7 @@ header {
 }
 
 .nav-links:hover {
-  color: #a5a5a5;
+  color: rgb(165, 165, 165);
 }
 
 @media screen and (min-width: 416px) {
@@ -40,6 +40,7 @@ header {
     display: none;
   }
 }
+
 @media screen and (max-width: 415px) {
   header {
     display: inline;
@@ -75,5 +76,3 @@ header {
     display: block;
   }
 }
-
-/*# sourceMappingURL=navbar.module.css.map */

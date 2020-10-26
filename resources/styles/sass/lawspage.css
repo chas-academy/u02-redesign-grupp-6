@@ -1,27 +1,23 @@
-
 .main-art {
-  max-width: 1000px ;
   margin: 15px;
   align-items: center;
 }
 
-.headline{
-  background-color: rgb(170, 168, 168);
+.headline {
+  background-color: #aaa8a8;
   padding: 1% 2%;
   margin: 2%;
   border-radius: 10px;
-  /* max-width: 1000px; */
+  width: 100%;
 }
 
 .art-1 {
-  max-width: 1000px;
   display: flex;
   flex-flow: row wrap;
   text-align: center;
 }
 
 .column-img {
-  max-width: 800px;
   margin: 3%;
   margin-top: 1px;
   padding: 0%;
@@ -53,8 +49,8 @@ a {
 }
 
 .side-list li {
-  background-color: rgb(170, 168, 168);
-  display: block;  
+  background-color: #aaa8a8;
+  display: block;
   border-radius: 10px;
   list-style: none;
   border-radius: 10px;
@@ -62,12 +58,13 @@ a {
   margin: 3%;
   margin-right: 0%;
 }
+
 .side-list .menu li a:hover {
-    background-color: rgb(209, 207, 207);
-    border-radius: 5px;
-    color: yellow;
-    padding: 2px;
-  }
+  background-color: #d1cfcf;
+  border-radius: 5px;
+  color: yellow;
+  padding: 2px;
+}
 
 .side-img {
   max-width: 400px;
@@ -77,7 +74,7 @@ a {
 }
 
 .art-2 {
-  background-color: rgb(206, 206, 206);
+  background-color: #cecece;
   max-width: 100%;
   border-radius: 10px;
   margin: 2%;
@@ -90,48 +87,45 @@ a {
   font-style: italic;
 }
 
-@media only screen and (max-width: 375px){
-  .main-art{
+@media only screen and (max-width: 375px) {
+  .main-art {
     align-items: center;
   }
-  
+
   .column-img {
-  max-width: 200px;
-  height: auto;
+    max-width: 200px;
+    height: auto;
   }
 }
-
-@media only screen and (max-width: 425px){
-  .main-art{
+@media only screen and (max-width: 425px) {
+  .main-art {
     align-items: center;
   }
-  
+
   .column-img {
-  max-width: 300px;
-  height: auto;
+    max-width: 300px;
+    height: auto;
   }
 }
-
-@media only screen and (max-width: 767px){
-  .main-art{
+@media only screen and (max-width: 767px) {
+  .main-art {
     align-items: center;
   }
-  
+
   .column-img {
     max-width: 700px;
     height: auto;
   }
+
   .headline {
     max-width: 700px;
   }
 }
-
-@media only screen and (max-width: 1082px){
+@media only screen and (max-width: 1082px) {
   .column-img {
     max-width: 600px;
     height: auto;
   }
 }
-
 
 /*# sourceMappingURL=lawspage.css.map */
