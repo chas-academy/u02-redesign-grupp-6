@@ -1,74 +1,88 @@
-h2 {
-    width: 100%;
-    margin: 2%;
-    padding: 10px;
-    display: inline-block;
-    background-color: grey;
-    border-radius: 15px;
+.law-hline {
+  width: 95%;
+  margin: 2%;
+  padding: 10px;
+  margin-bottom: 1px;
+  display: inline-block;
+  background-color: grey;
+  border-radius: 15px;
 }
 
 .main-art {
-    margin: 2%; 
+  margin: 2%;
 }
+
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
+}
+
+.lawmenu {
+  list-style-type: none;
+  margin: 2px 2px;
+  padding: 2px 2px;
+  overflow: hidden;
+}
+
+.lawmenu li {
+  float: left;
+  padding: 30px 30px;
+  margin-left: 2%;
+  margin-top: 2px;
+  background-color: grey;
+  border-radius: 15px;
+}
+
+.law-list .lawmenu li a:hover {
+  background-color: #d1cfcf;
+  border-radius: 5px;
+  color: yellow;
+  padding: 10px;
+  position: relative;
+  animation: move 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move {
+  from {
+    top: -10px;
   }
-  
-
-.menu {
-    list-style-type: none;
-    margin: 2px 2px;
-    padding: 2px 2px;
-    overflow: hidden;
-}
-
-.menu li {
-    float: left;
-    padding: 10px 10px;
-    margin-left: 2%;
-    margin-top: 2%;
-    background-color: grey;
-    border-radius: 15px;   
-}
-
-.side-list .menu li a:hover {
-    background-color: rgb(209, 207, 207);
-    border-radius: 5px;
-    color: yellow;
-    padding: 2px;
+  to {
+    top: 30px;
+    background-color: black;
   }
-
-.side-img {
-    float: left;
-    margin-top: 10px;
-    margin-left: 2%;
-    margin-right: 2%;
+}
+.laws-img {
+  float: left;
+  margin-top: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 15px;
 }
 
-.column-img {
-    width: auto;
-    margin-top: 10px;
-    margin-left: 2%;
-    margin-right: 2%;
-    border-radius: 15px;
+.lawcol-img {
+  width: auto;
+  margin-top: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 15px;
 }
+
 .art-2 {
-    margin-left: 2%;
-    margin-top: 2%;
-    width: 100%;
-    background-color: rgb(192, 189, 189);
-    display: inline-block;
-    position: relative;
-    padding: 10px;
-    border-radius: 15px;
-    clear: both;
+  width: 95%;
+  margin-left: 2%;
+  margin-top: 2%;
+  background-color: #c0bdbd;
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+  border-radius: 15px;
+  clear: both;
 }
 
 .art-2 a {
-    color: blue;
-    font-style: italic;
-  }
-
+  color: blue;
+  font-style: italic;
+}
 
 /*# sourceMappingURL=lawspage.css.map */
