@@ -12,7 +12,7 @@ body {
   font-weight: 400;
   font-size: 0.875rem;
   overflow-x: hidden !important;
-  line-height: 1.5em;
+  line-height: 1.5;
   letter-spacing: 0.3px;
   font-family: "Roboto", sans-serif;
   color: #333;
@@ -277,6 +277,19 @@ header {
 
 .section ul {
   font-size: 20px !important;
+  display: block;
+}
+
+.section ul li {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .section ul li {
+    text-align: left;
+  }
 }
 
 .section img {
@@ -516,7 +529,7 @@ header {
 .side-bar li {
   font-size: 14px;
   width: 100%;
-  text-align: left;
+  text-align: left !important;
 }
 
 .om-oss-header {
@@ -561,6 +574,23 @@ header {
   .about-link {
     text-align: left;
     margin: 3em;
+  }
+}
+
+img {
+  text-align: left;
+  margin: 10px;
+}
+
+.contactinfo {
+  text-align: center;
+}
+
+@media screen and (max-width: 414px) {
+  .contactinfo {
+    text-align: left;
+    margin: 10px;
+    white-space: normal;
   }
 }
 
@@ -701,10 +731,6 @@ ul li {
   }
 }
 
-html {
-  width: 100%;
-}
-
 #newsroom {
   position: relative;
   text-align: center;
@@ -806,7 +832,8 @@ html {
     max-width: 320px;
   }
   #newsroom {
-    margin-left: 35px;
+    text-align: center;
+    margin: 0 auto;
   }
   .act {
     max-width: 280px;
@@ -816,6 +843,15 @@ html {
   }
   .cal {
     max-width: 280px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  #newsroom {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
   }
 }
 /*# sourceMappingURL=style.css.map */
