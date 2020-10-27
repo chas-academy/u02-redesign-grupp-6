@@ -19,20 +19,25 @@ body {
 
 .publication-item {
     margin-top: 2rem;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
     padding: 1rem 1rem;
 }
 
 .active-page {
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .pages {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 1rem;
+    margin-top: 3rem;
+}
+
+.social-media {
+    margin-top: 5rem;
 }
 
 .share {
@@ -59,4 +64,18 @@ p {
 
 h2 {
     margin-top: 1rem;
+}
+
+@media only screen and (min-width: 1280px) {
+    .publications {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .publication-item {
+        margin-top: 2rem;
+        margin-left: 1rem !important;
+        /*border: 1px solid black;*/
+        padding: 1rem 1rem;
+    }
 }
