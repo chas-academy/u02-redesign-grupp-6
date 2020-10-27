@@ -22,12 +22,12 @@
     <!-- We will put navbar here when we submit our work, don't edit this line-->
     <div id="navigation"></div>
     <main class="main">
-      <h1>Publikationer</h1>
+      <h1 class="h1">Publikationer</h1>
       <p>Här hittar du Myndigheten för yrkeshögskolans rapporter, faktablad, 
           broschyrer, informationsblad och andra publikationer. Du kan välja typ av 
           publikation, område och utgivningsår i rutan till höger.</p>
       <ul class="publications">
-          <li>
+          <li class="publication-item">
               <img src="./resources/pdf/HandbokForTilltrade_reviderat_5juni2020_justerad_200703.pdf" alt="">
               <h2><a href="#">Handbok för tillträde till yrkeshögskolan - 2020</a></h2>
               <p>Utgiven: 2020-07-10</p>
@@ -35,7 +35,7 @@
               <i class="fas fa-file-pdf"></i>
               <a href="#">Handbok för tillträde till yrkeshögskolan - 2020</a>
           </li>
-          <li>
+          <li class="publication-item">
               <img src="./resources/pdf/Kvalitetskriterier_validering.pdf" alt="">
               <h2><a href="#">Kvalitetskriterier för validering - yrkeshögskoleutbildning, konst- och kulturutbildningar och tolkutbildning inom folkbildningen</a></h2>
               <p>Utgiven: 2020-06-09</p>
@@ -43,7 +43,7 @@
               <i class="fas fa-file-pdf"></i>
               <a href="#">Kvalitetskriterier för validering</a>
           </li>
-          <li>
+          <li class="publication-item">
               <img src="./resources/pdf/Analys_HalsoSjukvard2020.pdf" alt="">
               <h2><a href="#">Områdesanalys hälso- och sjukvård samt socialt arbete</a></h2>
               <p>Utgiven: 2020-05-19</p>
@@ -51,7 +51,7 @@
               <i class="fas fa-file-pdf"></i>
               <a href="#">Ladda ner områdesanalysen här</a>
           </li>
-          <li>
+          <li class="publication-item">
               <img src="./resources/pdf/Industri-Analys2020.pdf" alt="">
               <h2><a href="#">Områdesanalys industri</a></h2>
               <p>Utgiven: 2020-05-14</p>
@@ -59,7 +59,7 @@
               <i class="fas fa-file-pdf"></i>
               <a href="#">Ladda ner områdesanalysen här</a>
           </li>
-          <li>
+          <li class="publication-item">
               <img src="./resources/pdf/Nr10_I_blickfanget.pdf" alt="">
               <h2><a href="#">Statistik i blickfånget</a></h2>
               <p>Utgiven: 2020-05-12</p>
@@ -67,7 +67,7 @@
               <i class="fas fa-file-pdf"></i>
               <a href="#">Statistik i blickfånget</a>
           </li>
-          <li>
+          <li class="publication-item">
               <img src="./resources/pdf/aterrapportering_korta_utbildningar.pdf" alt="">
               <h2><a href="#">Regeringsuppdrag - Införande av korta utbildningar inom yrkeshögskolan</a></h2>
               <p>Utgiven: 2020-04-30</p>
@@ -75,7 +75,7 @@
               <i class="fas fa-file-pdf"></i>
               <a href="#">Läs mer i rapporten</a>
           </li>
-          <li>
+          <li class="publication-item">
               <img src="./resources/pdf/Statistisk_arsrapport_2020.pdf" alt="">
               <h2><a href="#">Statistisk årsrapport 2020</a></h2>
               <p>Utgiven: 2020-04-30</p>
@@ -83,7 +83,7 @@
               <i class="fas fa-file-pdf"></i>
               <a href="#">Ladda ner årsrapporten här</a>
           </li>
-          <li>
+          <li class="publication-item">
               <img src="./resources/pdf/Pedagogik_analys2020.pdf" alt="">
               <h2><a href="#">Områdesanalys pedagogik</a></h2>
               <p>Utgiven: 2020-04-28</p>
@@ -91,7 +91,7 @@
               <i class="fas fa-file-pdf"></i>
               <a href="#">Ladda ner områdesanlysen här</a>
           </li>
-          <li>
+          <li class="publication-item">
               <img src="./resources/pdf/Ekonomi_administration_forsaljning_analys2020.pdf" alt="">
               <h2><a href="#">Områdesanalys Ekonomi, administration och försäljning</a></h2>
               <p>Utgiven: 2020-04-22</p>
@@ -99,7 +99,7 @@
               <i class="fas fa-file-pdf"></i>
               <a href="#">Ladda ner områdesanlysen här</a>
           </li>
-          <li>
+          <li class="publication-item">
               <img src="./resources/pdf/Om-konst-och-kulturutbildningar-SYV.pdf" alt="">
               <h2><a href="#">Folder: Konst- och kulturutbildning</a></h2>
               <p>Utgiven: 2020-04-21</p>
@@ -108,8 +108,8 @@
               <a href="#">Ladda ner publikationen här</a>
           </li>
       </ul>
-      <p>Sidan 1 av 23</p>
-      <ul>
+      <p class="active-page">Sidan 1 av 23</p>
+      <ul class="pages">
           <li><a href="#">«</a></li>
           <li><a href="#">1</a></li>
           <li><a href="#">2</a></li>
@@ -123,7 +123,7 @@
           <li><a href="#">»</a></li>
       </ul>
   </main>
-  <aside class="publications">
+  <aside class="publications-list">
       <h2>Förfina listningen</h2>
       <ul>
           <li><a href="#">Alla publikationer</a><p>228</p></li>
@@ -156,14 +156,14 @@
           <li><a href="#">2010</a><p>10</p></li>
       </ul>
   </aside>
-  <aside">
-      <h2>Dela</h2>
-      <ul>
-          <li><a href="#"><i class="fab fa-facebook-square" style="font-size: 32px;"></i></a></li>
-          <li><a href="#"><i class="fab fa-twitter style=" style="font-size: 32px;"></i></a></li>
-          <li><a href="#"><i class="fas fa-envelope" style="font-size: 32px;"></i></a></li>
+  <section class="social-media">
+      <h2 class="share">Dela</h2>
+      <ul class="media-items">
+          <li><a href="#"><i class="icon fab fa-facebook-square"></i></a></li>
+          <li><a href="#"><i class="icon fab fa-twitter style="></i></a></li>
+          <li><a href="#"><i class="icon fas fa-envelope"></i></a></li>
       </ul>
-  </aside>
+    </section>
     <div id="footer"></div>
     <!-- We will put footer here when we submit our work, don't edit this line-->
   </body>
