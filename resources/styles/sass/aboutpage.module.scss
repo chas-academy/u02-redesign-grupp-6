@@ -19,10 +19,21 @@
   height: auto;
 }
 
+.about-video {
+  display: flex;
+  width: 90%;
+  height: 315px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
 @media only screen and (min-width: 768px) {
   .about-section {
     margin: 0 auto;
     text-align: left;
+    max-width: 950px;
   }
 
   .om-oss-header {
@@ -44,5 +55,10 @@
   .about-link {
     text-align: left;
     margin: 3em;
+  }
+
+  .about-video {
+    display: flex;
+    margin: 0 auto;
   }
 }
