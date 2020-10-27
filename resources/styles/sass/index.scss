@@ -3,6 +3,7 @@
   max-height: 700px;
   width: 100%;
 }
+
 .section {
   padding: 40px 0;
   margin: 0 0 32px;
@@ -28,6 +29,15 @@
 
 .section ul {
   font-size: 20px !important;
+  display: block;
+  li {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    @media only screen and (max-width: 480px) {
+      text-align: left;
+    }
+  }
 }
 
 .section img {
@@ -202,6 +212,6 @@
   li {
     font-size: 14px;
     width: 100%;
-    text-align: left;
+    text-align: left !important;
   }
 }
