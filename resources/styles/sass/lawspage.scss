@@ -1,131 +1,80 @@
+.law-hline {
+  width: 95%;
+  margin: 2%;
+  padding: 10px;
+  margin-bottom: 1px;
+  display: inline-block;
+  background-color: grey;
+  border-radius: 15px;
+}
+
 .main-art {
-    margin: 15px;
-    align-items: center;
-  }
-  
-  .headline{
-    background-color: rgb(206, 206, 206);
-    max-width: 100%;
-    border-radius: 10px;
-    margin: 2%;
-    margin-top: 2px;
-    padding: 2%;
-  }
-  
-  .art-1 {
-    display: inline;
-    position: center;
-  }
-  
-  .column-img {
-    margin: 3%;
-    margin-top: 1px;
-    padding: 0%;
-    border-radius: 10px;
-    position: relative;
-  }
-  
-  .sidebar {
-    display: inline-block;
-    position: absolute;
+  margin: 2%; 
+}
+a {
+  text-decoration: none;
+  color: black;
+}
 
-  }
-  
-  a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  .side-list {
-    display: block;
-  }
-  
-  .side-list .menu {
-    margin-top: 0%;
-    margin-right: 0%;
-  }
+.lawmenu {
+  list-style-type: none;
+  margin: 2px 2px;
+  padding: 2px 2px;
+  overflow: hidden;
+}
 
-  ul li {
-    display: inline;
-  }
-  
-  .side-list li {
-    background-color: rgb(170, 168, 168);
-    display: inline-block;  
-    border-radius: 10px;
-    list-style: none;
-    border-radius: 10px;
-    padding: 5%;
-    margin: 3%;
-    margin-right: 0%;
-  }
-  .side-list .menu li a:hover {
-      background-color: rgb(209, 207, 207);
-      border-radius: 5px;
-      color: yellow;
-      padding: 2px;
-    }
-  
-  .side-img {
-    max-width: 400px;
-    border-radius: 10px;
-    margin-right: 5px;
-    margin-top: 2px;
-  }
-  
-  .art-2 {
-    background-color: rgb(206, 206, 206);
-    max-width: 100%;
-    border-radius: 10px;
-    margin: 2%;
-    margin-top: 2px;
-    padding: 2%;
-  }
-  
-  .art-2 a {
-    color: blue;
-    font-style: italic;
-  }
-  
-  @media only screen and (max-width: 375px){
-    .main-art{
-      align-items: center;
-    }
-    
-    .column-img {
-    max-width: 200px;
-    height: auto;
-    }
-  }
-  
-  @media only screen and (max-width: 425px){
-    .main-art{
-      align-items: center;
-    }
-    
-    .column-img {
-    max-width: 300px;
-    height: auto;
-    }
-  }
-  
-  @media only screen and (max-width: 767px){
-    .main-art{
-      align-items: center;
-    }
-    
-    .column-img {
-      max-width: 700px;
-      height: auto;
-    }
-    .headline {
-      max-width: 700px;
-    }
-  }
-  
-  @media only screen and (max-width: 1082px){
-    .column-img {
-      max-width: 600px;
-      height: auto;
-    }
-  }
+.lawmenu li {
+  float: left;
+  padding: 30px 30px;
+  margin-left: 2%;
+  margin-top: 2px;
+  background-color: grey;
+  border-radius: 15px;   
+}
+
+.law-list .lawmenu li a:hover {
+  background-color: rgb(209, 207, 207);
+  border-radius: 5px;
+  color: yellow;
+  padding: 10px;
+  position: relative;
+  animation: move 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes move {
+  from {top: -10px}
+  to {top: 30px; background-color: black;}
+}
+
+.laws-img {
+  float: left;
+  margin-top: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 15px;
+}
+
+.lawcol-img {
+  width: auto;
+  margin-top: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 15px;
+}
+.art-2 {
+  width: 95%;
+  margin-left: 2%;
+  margin-top: 2%;
+  background-color: rgb(192, 189, 189);
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+  border-radius: 15px;
+  clear: both;
+}
+
+.art-2 a {
+  color: blue;
+  font-style: italic;
+}

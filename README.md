@@ -24,7 +24,11 @@ The style.scss file includes all our style sheets. If you do not need to see you
 ```bash
 sass --watch style.scss:style.css
 ```
-In this way, you might need to run this command above every time when you want to see the updates in your css changes. This might be annoying for many of you. Instead, go to the ```resources``` directory which locates in the root folder, run:
+In this way, you might need to run this command above every time when you want to see the updates in your css changes. This might be annoying for many of you. Instead, go to the ```resources``` directory which locates in the root folder.
+```bash 
+cd resources/
+``` 
+
 ```bash
 sass --watch styles/:styles/
 ```

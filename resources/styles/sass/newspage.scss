@@ -1,7 +1,3 @@
-html {
-  width: 100%;
-}
-
 #newsroom {
   position: relative;
   text-align: center;
@@ -86,6 +82,8 @@ html {
   }
 }
 
+
+
 @media screen and (max-width: 415px) {
   .heading {
     max-width: 100%;
@@ -95,7 +93,8 @@ html {
   }
 
   #newsroom {
-    margin-left: 35px;
+    text-align: center;
+    margin: 0 auto;
   }
 
   .act {
@@ -108,5 +107,12 @@ html {
 
   .cal {
     max-width: 280px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  #newsroom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
