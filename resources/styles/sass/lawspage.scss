@@ -1,7 +1,8 @@
-h2 {
-  width: 100%;
+.law-hline {
+  width: 95%;
   margin: 2%;
   padding: 10px;
+  margin-bottom: 1px;
   display: inline-block;
   background-color: grey;
   border-radius: 15px;
@@ -15,38 +16,46 @@ a {
   color: black;
 }
 
-
-.menu {
+.lawmenu {
   list-style-type: none;
   margin: 2px 2px;
   padding: 2px 2px;
   overflow: hidden;
 }
 
-.menu li {
+.lawmenu li {
   float: left;
-  padding: 10px 10px;
+  padding: 30px 30px;
   margin-left: 2%;
-  margin-top: 2%;
+  margin-top: 2px;
   background-color: grey;
   border-radius: 15px;   
 }
 
-.side-list .menu li a:hover {
+.law-list .lawmenu li a:hover {
   background-color: rgb(209, 207, 207);
   border-radius: 5px;
   color: yellow;
-  padding: 2px;
+  padding: 10px;
+  position: relative;
+  animation: move 5s;
+  animation-fill-mode: forwards;
 }
 
-.side-img {
+@keyframes move {
+  from {top: -10px}
+  to {top: 30px; background-color: black;}
+}
+
+.laws-img {
   float: left;
   margin-top: 10px;
   margin-left: 2%;
   margin-right: 2%;
+  border-radius: 15px;
 }
 
-.column-img {
+.lawcol-img {
   width: auto;
   margin-top: 10px;
   margin-left: 2%;
@@ -54,9 +63,9 @@ a {
   border-radius: 15px;
 }
 .art-2 {
+  width: 95%;
   margin-left: 2%;
   margin-top: 2%;
-  width: 100%;
   background-color: rgb(192, 189, 189);
   display: inline-block;
   position: relative;
