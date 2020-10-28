@@ -1,14 +1,20 @@
 # myh.se
-### A redesign of myh.se - the cooler version
+## A redesign of myh.se - the cooler version :sunglasses:
 This is a static website for myh.se which includes html and css files only.
 Since we are using scss for this project, you should pre-install sass to your local machine.
 
-## Install SASS
+## How we structure our files
+All the html files have one and the same one stylesheet which is ```style.css```. Style.css includes all the css for our static website by ```@import``` all scss files.
+So this will create one issue, when you open any page the ```style.css``` will always try to load all the css into one big css file and serves it. For instance, if you open the homepage the ```index.html``` will look for ```style.css``` which contains all the css including ```index.css``` and many other css files, such as ```footer.css```, ```navbar.css```, and etc. When you are giving class names to the html files, please do not make a too generic class name, such as ```body```. Furthermore, avoid styling the semantic elemnets directly, such as ```h1 {font-size=16px}``` because it might interfere with other html files where they also have ```h1```.
+
+## Before you jump into the project, install SASS! :stuck_out_tongue_winking_eye:
+
+### How to install SASS
 
 ### Install anywhere (standalone)
 
 You can install Sass on Windows, Mac, or Linux by downloading the package for your operating system from [GitHub](https://github.com/sass/dart-sass/releases/tag/1.26.11) and adding it to your [PATH](https://katiek2.github.io/path-doc/). 
-### Install Anywhere (npm)
+### Install anywhere (npm)
 If you use Node.js, you can also install Sass using [npm](https://www.npmjs.com/) by running
 ```bash
 npm install -g sass
@@ -34,5 +40,5 @@ sass --watch styles/:styles/
 ```
 Now you should be able to see your live changes in all static web pages if you have any updates in the related css files. 
 
-## Contributing
+## Contributing :heart:
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
