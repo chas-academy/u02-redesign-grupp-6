@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Start - Myndigheten för yrkeshögskolan</title>
+    <link rel="icon" href="./resources/img/logotype.svg" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
@@ -23,21 +24,22 @@
       });
     </script>
   </head>
+  <div id="navigation"></div>
   <body>
     <!-- We will put navbar here when we submit our work-->
-    <div id="navigation"></div>
+
 
     <div class="fullWidthContainer">
       <img
-        style="max-height: 700px; width: 100%"
+        class="headerImg"
         src="./resources/img/fullwidth.jpg"
         alt="yrkeshögskolan"
       />
     </div>
-    <div class="container contentContainer">
+    <div class="container">
       <div class="section">
-        <div class="section row" style="display: flex; flex-wrap: wrap">
-          <div class="column" style="flex: 50%">
+        <div class="section row">
+          <div class="column">
             <h2>Ansök om att bedriva utbildning</h2>
             <ul style="line-height: 4em">
               <li>
@@ -57,27 +59,64 @@
               </li>
             </ul>
           </div>
-          <div class="column" style="flex: 50%">
+          <div class="column">
             <img
               class="elevation"
-              style="width: 100%"
               src="./resources/img/apply.png"
               alt="Application"
             />
           </div>
         </div>
       </div>
+    </div>
 
+    <div class="banner-container row white">
+      <div class="banner-col">
+        <a href="#"
+          ><div class="box-banner">
+            <i class="fas fa-file-signature fa-5x"></i>
+            <h1>Anmäl brister i en utbildning</h1>
+          </div></a
+        >
+      </div>
+
+      <div class="banner-col">
+        <a href="#"
+          ><div class="box-banner">
+            <i class="fas fa-road fa-5x"></i>
+            <h1>Vägledare</h1>
+          </div></a
+        >
+      </div>
+      <div class="banner-col">
+        <a href="#"
+          ><div class="box-banner">
+            <i class="fas fa-globe-europe fa-5x"></i>
+            <h1>EPALE</h1>
+          </div></a
+        >
+      </div>
+      <div class="banner-col">
+        <a href="#"
+          ><div class="box-banner">
+            <i class="fas fa-map-signs fa-5x"></i>
+            <h1>YA-delegationens utbildning</h1>
+          </div></a
+        >
+      </div>
+    </div>
+
+    <div class="container">
       <div class="section">
-        <div class="row" style="display: flex; flex-wrap: wrap">
-          <div class="column" style="flex: 50%">
+        <div class="row">
+          <div class="column">
             <img
               class="elevation"
               src="./resources/img/study.png"
               alt="Study"
             />
           </div>
-          <div class="column" style="flex: 50%">
+          <div class="column">
             <h2>För dig som bedriver utbildning</h2>
             <ul style="line-height: 2.5em">
               <li>
@@ -111,10 +150,38 @@
           </div>
         </div>
       </div>
+    </div>
 
+    <div class="white">
+      <div class="section follow-us">
+        <h1>
+          följ oss: Myndigheten för yrkeshögskolan på sociala medier för att ge
+          dig möjlighet att ta del av information och nyheter.
+        </h1>
+        <ul>
+          <li>
+            <a href="#"> <i class="fab fa-facebook-square fa-3x"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-linkedin fa-3x"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter-square fa-3x"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-youtube fa-3x"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram fa-3x"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container">
       <div class="section">
-        <div class="section row" style="display: flex; flex-wrap: wrap">
-          <div class="column" style="flex: 50%">
+        <div class="section row">
+          <div class="column">
             <h2>För företag och organisationer</h2>
             <ul style="line-height: 4em">
               <li>
@@ -127,45 +194,91 @@
               </li>
             </ul>
           </div>
-          <div class="column" style="flex: 50%">
+          <div class="column">
             <img
               class="elevation"
-              style="width: 100%"
               src="./resources/img/company.png"
               alt="Application"
             />
           </div>
         </div>
       </div>
+    </div>
 
+    <div class="white">
       <div class="section news">
-        <div class="news-container">
-          <div class="textBox">
-            <a href="#"
-              ><h1>
-                Yrkeshögskola – det populäraste alternativet för tjänstemän vid
-                omställning
-              </h1></a
-            >
-
-            <p class="subtitle">16 oktober 2020</p>
-            <p>
-              När förutsättningarna på arbetsmarknaden förändras i pandemins
-              spår blir omställning allt viktigare. Omställningsaktören TRR är
-              en av de aktörer som stöttar tjänstemän i privat sektor när de
-              förlorat jobbet....
-            </p>
-            <p id="blue-subtext"><a href="#"> Fortsätt läsa...</a></p>
+        <div class="news column">
+          <div class="news-container">
+            <div class="text-box">
+              <a href="#"
+                ><h1>
+                  Yrkeshögskola – det populäraste alternativet för tjänstemän
+                  vid omställning
+                </h1></a
+              >
+              <p class="subtitle">16 oktober 2020</p>
+              <p>
+                När förutsättningarna på arbetsmarknaden förändras i pandemins
+                spår blir omställning allt viktigare. Omställningsaktören TRR är
+                en av de aktörer som stöttar tjänstemän i privat sektor när de
+                förlorat jobbet....
+              </p>
+              <p id="blue-subtext"><a href="#"> Fortsätt läsa...</a></p>
+            </div>
+            <img
+              style="max-height: 500px; width: 100%"
+              src="./resources/img/success.jpeg"
+              alt="success"
+            />
           </div>
-          <img
-            style="max-height: 500px; width: 100%"
-            src="./resources/img/success.jpeg"
-            alt="industry 4.0"
-          />
+          <div class="side-bar">
+            <h1>Mer publikationer</h1>
+            <ul>
+              <a href="#"
+                ><li>
+                  Nu kan du administrera korta yrkeshögskoleutbildningar i Mina
+                  sidor
+                </li></a
+              >
+              <hr />
+              <a href="#">
+                <li>
+                  Webbinarium: Metodik för distansundervisning – så här klarar
+                  du det (och lite till)!
+                </li>
+              </a>
+              <hr />
+              <a href="#">
+                <li>
+                  Marknadsför YH-utbildningar som möjliga uppdragsutbildningar
+                </li>
+              </a>
+              <hr />
+              <a href="#">
+                <li>Rekordmånga ansökningar om att bedriva YH-utbildning</li>
+              </a>
+              <hr />
+              <a href="#">
+                <li>Framgångsrik rivstart för korta YH-utbildningar</li>
+              </a>
+              <hr />
+              <a href="#">
+                <li>Ny rapport synliggör social snedrekrytering</li>
+              </a>
+              <hr />
+              <a href="#">
+                <li>
+                  Inspelning från webbinarium: Planering inför verksamhetsstart
+                </li>
+              </a>
+              <hr />
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-    <div id="footer"></div>
+
     <!-- We will put footer here when we submit our work-->
   </body>
+  <div id="footer"></div>
 </html>
