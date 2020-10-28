@@ -8,7 +8,6 @@ html {
   padding: 0;
 }
 
-
 body {
   margin: 0;
   background-color: #eeeeee;
@@ -35,11 +34,6 @@ h6 {
   color: $primary;
 }
 
-.elevation {
-  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2),
-    0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
-}
-
 .container {
   max-width: 1170px;
   margin: 0 auto;
@@ -55,21 +49,8 @@ h6 {
   background: $white;
 }
 
-.light-gray {
-  background: rgba(0, 0, 0, 0.024);
-}
-
-@media only screen and (max-width: 767px) {
-  .container.contentContainer {
-    padding-top: 100px;
-  }
-}
-
 .fullWidthContainer {
   width: 100%;
-}
-.fullWidthContainer.ContentContainer {
-  padding-top: 80px;
 }
 
 @media only screen and (max-width: 767px) {
