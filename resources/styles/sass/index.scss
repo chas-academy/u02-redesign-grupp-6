@@ -3,18 +3,25 @@
   max-height: 700px;
   width: 100%;
 }
+
 .section {
   padding: 40px 0;
   margin: 0 0 32px;
+  text-align: center;
   .row img {
     @media only screen and (max-width: 768px) {
       display: none;
-      text-align: center;
     }
   }
 }
 
-.section h2 {
+.section .row {
+  @media only screen and (max-width: 1024px) {
+    flex-direction: column;
+  }
+}
+
+.section h3 {
   font-size: 32px;
   font-weight: 800;
   margin: 0 0 16px;
@@ -22,7 +29,21 @@
 
 .section ul {
   font-size: 20px !important;
-  max-width: 36rem;
+  display: block;
+  li {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    @media only screen and (max-width: 768px) {
+      width: 80%;
+    }
+    @media only screen and (max-width: 480px) {
+      width: 100%;
+    }
+    @media only screen and (min-width: 1024px) {
+      width: 85%;
+    }
+  }
 }
 
 .section img {
@@ -46,20 +67,41 @@
 
 .row {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .column {
   flex: 50%;
+  padding: 20px 0;
 }
 
-.banner-container {
-  padding: 120px;
+.banner-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
+.banner-container {
+  padding: 40px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+  @media (max-width: 480px) {
+    padding: 0;
+  }
+}
+
 .banner-container a {
   :hover {
     box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
       0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  }
+}
+
+.banner-col {
+  flex: 1 calc(20%);
+  margin: 10px;
+  @media (max-width: 1024px) {
+    flex: 0 1 calc(48% - 10px);
   }
 }
 
@@ -103,11 +145,15 @@
 }
 
 .news {
+  padding: 60px 40px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     flex-direction: column;
+  }
+  @media (max-width: 480px) {
+    padding: 0;
   }
 }
 .news .column {
@@ -136,8 +182,8 @@
   h1 {
     color: $white;
     font-weight: 500;
-    @media only screen and (max-width: 768px) {
-      font-size: 3vw;
+    @media only screen and (max-width: 1024px) {
+      font-size: 2.5vw;
     }
   }
   p {
@@ -145,8 +191,8 @@
     color: $white;
     width: 50ch;
     font-size: 24px;
-    @media only screen and (max-width: 768px) {
-      font-size: 3vw;
+    @media only screen and (max-width: 1024px) {
+      font-size: 2vw;
     }
   }
   .subtitle {
@@ -166,6 +212,7 @@
 
 .side-bar {
   flex: 40%;
+  width: 100%;
   h1 {
     text-align: center;
   }
@@ -174,9 +221,7 @@
   }
   li {
     font-size: 14px;
-    width: 40ch;
-  }
-  @media (max-width: 768px) {
     width: 100%;
+    text-align: left !important;
   }
 }

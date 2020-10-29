@@ -3,12 +3,15 @@
 }
 
 .om-oss {
-  margin: 3em;
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-top: 2em;
 }
 
 .about-link {
   display: block;
-  text-align: center;
+  text-align: left;
+  margin-left: 3em;
 }
 
 .pencil-img {
@@ -16,16 +19,46 @@
   height: auto;
 }
 
-@media only screen and (min-width: 600px) {
-  .pencil-img {
-    display: block;
+.about-video {
+  display: flex;
+  width: 90%;
+  height: 315px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-section {
     margin: 0 auto;
-    width: 600px;
+    text-align: left;
+    max-width: 950px;
   }
 
+  .om-oss-header {
+    text-align: left;
+    margin: 2em;
+  }
+
+  .pencil-img {
+    margin-right: 3em;
+    margin-bottom: 3em;
+    width: 630px;
+    float: left;
+  }
+
+  #footer {
+    clear: both;
+  }
 
   .about-link {
     text-align: left;
     margin: 3em;
+  }
+
+  .about-video {
+    display: flex;
+    margin: 0 auto;
   }
 }

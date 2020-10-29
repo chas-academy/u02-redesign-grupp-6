@@ -5,9 +5,10 @@ ul {
 #footer {
   position: sticky;
   left: 0;
-  bottom: 0;
+  bottom: -90px;
   width: 100%;
   background-color: #eeeeee;
+  z-index: 100;
 }
 
 .contact {
@@ -28,11 +29,23 @@ ul {
 
 }
 
+
 @media screen and (max-width: 415px) {
+
+  #footer {
+    bottom: -220px;
+  }
+
   .contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    text-align: left;
+    margin: 10px;
     font-size: 10px;
     h6 {
       font-size: 12px;
     }
   }
 }
+
