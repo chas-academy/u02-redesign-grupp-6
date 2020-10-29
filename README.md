@@ -39,6 +39,9 @@ sass --watch styles/:styles/
 ```
 Now you should be able to see your live changes in all static web pages if you have any updates in the related css files. 
 
+### If you use [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass) to compile scss to css in [Visual Studio Code](https://code.visualstudio.com/):point_left:
+Unfortunately, our team members have encountered problems using this plugin. It is not compiling the style.scss once there is changes in other scss files. We highly recommend you to run the ```sass --watch styles/:styles/``` on your terminal instead. We appreciate if you find a solution with the plugin in Vscode and let us know.
+
 ## Contributing :heart:
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. 
 
