@@ -11,9 +11,16 @@
     margin-top: 3rem;
 }
 
+.p-graph {
+    text-align: center;
+}
+
+
+
 .publications {
     display: grid;
     grid-template-columns: auto;
+    margin-right: 2.5rem;
 }
 
 .publication-item {
@@ -33,6 +40,7 @@
     flex-direction: row;
     justify-content: space-around;
     margin-top: 3rem;
+    margin-right: 2.5rem;
 }
 
 .social-media {
@@ -69,6 +77,7 @@ h2 {
     .publications {
         display: grid;
         grid-template-columns: auto auto;
+        margin-right: 3.5rem;
     }
 
     .publication-item {
