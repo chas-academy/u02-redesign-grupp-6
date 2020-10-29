@@ -35,6 +35,7 @@ header {
 .dropdown-content {
   text-align: justify;
   margin-right: 10px;
+  margin-left: 10px;
   font-weight: bold;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -51,13 +52,13 @@ header {
   color: rgb(165, 165, 165);
 }
 
-@media screen and (min-width: 416px) {
+@media screen and (min-width: 415px) {
   button {
     display: none;
   }
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 414px) {
 
   header {
       display: grid;
