@@ -42,5 +42,5 @@ Now you should be able to see your live changes in all static web pages if you h
 ## Contributing :heart:
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. 
 
-### Join our developer team :sparkles
+### Join our developer team :sparkles:
 As of now, we have six developers working in the frontend team, and of course we would like to expand the team! We are using [trello](https://trello.com/en) to collaborate and [slack](https://slack.com/intl/en-se/) to communicate.If you are interested in joining us, please talk to our brilliant scrum master, [Otto](https://github.com/ottoreimers)! :v:
