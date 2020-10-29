@@ -493,17 +493,13 @@ a {
   font-style: italic;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 .biz-header {
   display: inline-block;
   margin-left: 5px;
 }
 
 .bizh2 {
-  width: 97%;
+  width: 93%;
   margin: 2%;
   padding: 20px;
   display: inline-block;
@@ -527,11 +523,12 @@ a {
 }
 
 .bizcolumn {
+  box-sizing: border-box;
   background-color: #dddddd;
   border-radius: 15px;
   margin: 1% 1%;
   float: left;
-  width: 31%;
+  width: 30%;
   padding: 10px;
   height: 500px;
   align-items: center;
