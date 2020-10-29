@@ -1,6 +1,5 @@
-# myh.se
-## A redesign of myh.se - the cooler version :sunglasses:
-This is a static website for myh.se which includes html and css files only.
+# A redesign of myh.se - the cooler version :sunglasses:
+This is a static website for myh.se which includes html and scss files only.
 Since we are using scss for this project, you should pre-install sass to your local machine.
 
 ## How we structure our files
@@ -41,4 +40,7 @@ sass --watch styles/:styles/
 Now you should be able to see your live changes in all static web pages if you have any updates in the related css files. 
 
 ## Contributing :heart:
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. 
+
+### Join our developer team :sparkles
+As of now, we have six developers working in the frontend team, and of course we would like to expand the team! We are using [trello](https://trello.com/en) to collaborate and [slack](https://slack.com/intl/en-se/) to communicate.If you are interested in joining us, please talk to our brilliant scrum master, [Otto](https://github.com/ottoreimers)! :v:
