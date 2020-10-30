@@ -59,8 +59,23 @@
 }
 
 .icon {
-    font-size: 400%;
-    color: dodgerblue;
+    font-size: 5rem;
+}
+
+.face {
+    color: #4267b2;
+}
+
+.twitter {
+    color: #38a1f3;
+}
+
+.envelope {
+    color: #38a1f3;
+}
+
+.icon:hover {
+    color: yellow;
 }
 
 p {
