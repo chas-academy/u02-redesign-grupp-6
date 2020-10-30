@@ -17,6 +17,8 @@
 
 .search {
     margin-left: 3.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
     height: 2rem;
     background-color: ghostwhite;
 }
@@ -34,6 +36,10 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
     padding: 1rem 1rem;
     background-color: #eeeeee;
+}
+
+.publication-item:hover {
+    background-color: ghostwhite;
 }
 
 .active-page {
