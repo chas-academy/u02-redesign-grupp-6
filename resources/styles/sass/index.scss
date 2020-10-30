@@ -32,10 +32,16 @@
   display: block;
   li {
     display: inline-block;
-    width: 100%;
-    text-align: center;
+    width: 50%;
+    text-align: left;
+    @media only screen and (max-width: 768px) {
+      width: 80%;
+    }
     @media only screen and (max-width: 480px) {
-      text-align: left;
+      width: 100%;
+    }
+    @media only screen and (min-width: 1024px) {
+      width: 85%;
     }
   }
 }
@@ -62,7 +68,6 @@
 .row {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
 }
 
 .column {
@@ -70,6 +75,11 @@
   padding: 20px 0;
 }
 
+.banner-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 .banner-container {
   padding: 40px;
   @media (max-width: 768px) {
