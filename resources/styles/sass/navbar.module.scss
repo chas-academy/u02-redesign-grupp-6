@@ -2,7 +2,7 @@ hr {
   margin: 10px;
 }
 
-header {
+.menu-top {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -60,7 +60,7 @@ header {
 
 @media screen and (max-width: 414px) {
 
-  header {
+  .menu-top {
       display: grid;
       grid-template-columns: 1fr;
 

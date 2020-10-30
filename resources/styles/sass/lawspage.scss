@@ -9,9 +9,9 @@
 }
 
 .main-art {
-  margin: 2%; 
+  margin: 2%;
 }
-a {
+.law-links {
   text-decoration: none;
   color: black;
 }
@@ -29,10 +29,10 @@ a {
   margin-left: 2%;
   margin-top: 2px;
   background-color: grey;
-  border-radius: 15px;   
+  border-radius: 15px;
 }
 
-.law-list .lawmenu li a:hover {
+.law-list .lawmenu li .law-links:hover {
   background-color: rgb(209, 207, 207);
   border-radius: 5px;
   color: yellow;
