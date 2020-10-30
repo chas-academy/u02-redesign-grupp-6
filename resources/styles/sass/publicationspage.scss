@@ -13,6 +13,7 @@
 
 .pub-text {
     margin-left: 3rem;
+    text-align: center;
 }
 
 .search {
@@ -43,6 +44,11 @@
     background-color: ghostwhite;
 }
 
+.publications a {
+    text-decoration: none;
+    color: black;
+}
+
 .active-page {
     text-align: center;
     margin-top: 2rem;
@@ -55,6 +61,15 @@
     margin-top: 3rem;
     margin-right: 2.5rem;
     list-style-type: none;
+    font-size: 12pt;
+}
+
+.pages a {
+    text-decoration: none;
+}
+
+.pages a:hover {
+    text-decoration: underline;
 }
 
 .social-media {
