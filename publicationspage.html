@@ -24,11 +24,17 @@
     <div id="navigation"></div>
     <main class="main">
       <h1 class="h1">Publikationer</h1>
+<<<<<<< HEAD
       <p>Här hittar du Myndigheten för yrkeshögskolans rapporter, faktablad,
           broschyrer, informationsblad och andra publikationer. Du kan välja typ av
       <p class="pub-text">Här hittar du Myndigheten för yrkeshögskolans rapporter, faktablad,
           broschyrer, informationsblad och andra publikationer. Du kan välja typ av
           publikation, område och utgivningsår i rutan till höger.</p>
+=======
+      <p class="pub-text">Här hittar du Myndigheten för yrkeshögskolans rapporter, faktablad, 
+          broschyrer, informationsblad och andra publikationer. Du kan välja typ av 
+          publikation, område och utgivningsår nedan.</p>
+>>>>>>> bfcc6957c8000d9af3745837601f3a9776badd04
           <!--<aside class="publications-list">
             <h2>Förfina listningen</h2>
             <div class="dropdown">
@@ -64,7 +70,54 @@
                     <li><a href="#">2010</a><p>10</p></li>
                 </ul>
             </aside>-->
-      <ul class="publications">
+      <form class="searching" action="none">
+        <label for="search"></label>
+        <p>Alla</p>
+        <select class="search" name="searches">
+          <option value="">Välj</option>
+          <option value="">Alla publikationer</option>
+        </select>
+        <label for="search"></label>
+        <p>Publikationstyp</p>
+        <select class="search" name="searches">
+          <option value="">Välj</option>
+          <option value="">Alla publikationstyper</option>
+          <option value="">Rapporter</option>
+          <option value="">Återrapportering av regeringsuppdrag</option>
+          <option value="">Informationsmaterial</option>
+          <option value="">Årsredovisningar</option>
+        </select>
+        <label for="search"></label>
+        <p>Områden</p>
+        <select class="search" name="searches">
+          <option value="">Välj</option>
+          <option value="">Alla områden</option>
+          <option value="">Yrkeshögskolan</option>
+          <option value="">Konst- och kulturutbildningar</option>
+          <option value="">Tolkutbildningar</option>
+          <option value="">Utbildningar med endast tillsyn</option>
+          <option value="">Validering</option>
+          <option value="">SeQF</option>
+        </select>
+        <label for="search"></label>
+        <p>År</p>
+        <select class="search" name="searches">
+          <option value="">Välj</option>
+          <option value="">Alla år</option>
+          <option value="">2020</option>
+          <option value="">2019</option>
+          <option value="">2018</option>
+          <option value="">2017</option>
+          <option value="">2016</option>
+          <option value="">2015</option>
+          <option value="">2014</option>
+          <option value="">2013</option>
+          <option value="">2012</option>
+          <option value="">2011</option>
+          <option value="">2010</option>
+        </select>
+      </form>
+        <ul class="publications">
           <li class="publication-item">
               <img src="./resources/pdf/HandbokForTilltrade_reviderat_5juni2020_justerad_200703.pdf" alt="">
               <h2><a href="#">Handbok för tillträde till yrkeshögskolan - 2020</a></h2>
