@@ -1,17 +1,28 @@
 .law-hline {
   width: 95%;
-  margin: 2%;
-  padding: 10px;
-  margin-bottom: 1px;
+  margin: 2% /*20px 5px*/;
+  padding: 20px;
+  margin-bottom: 5px;
   display: inline-block;
   background-color: grey;
   border-radius: 15px;
 }
 
+.law-hline h2 {
+  text-align: justify;
+  margin-top: 3px;
+}
+
 .main-art {
+<<<<<<< HEAD
   margin: 2%;
 }
 .law-links {
+=======
+  margin: 1%; 
+}
+.law-list a {
+>>>>>>> 69d0c639ee56dbdcc72d987f607989b7b15c28a3
   text-decoration: none;
   color: black;
 }
@@ -26,6 +37,7 @@
 .lawmenu li {
   float: left;
   padding: 30px 30px;
+  margin: 2%;
   margin-left: 2%;
   margin-top: 2px;
   background-color: grey;
