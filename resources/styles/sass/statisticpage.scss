@@ -1,0 +1,27 @@
+.side-top {
+  margin: 50px;
+  .side-note {
+    font-style: italic;
+  }
+}
+
+.dropdown-statistic {
+  border: solid rgb(226, 226, 226) 1px;
+  padding: 20px;
+  background-color: white;
+  margin: 50px;
+  margin-right: 400px;
+  margin-left: 400px;
+  .search-bar-statistic {
+    padding: 6px;
+    border: rgb(196, 196, 196) solid 1px;
+  }
+  .statistic {
+    padding: 6px;
+    border: rgb(196, 196, 196) solid 1px;
+  }
+  .year-report {
+    padding: 6px;
+    border: rgb(196, 196, 196) solid 1px;
+  }
+}
