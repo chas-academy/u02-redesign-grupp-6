@@ -24,6 +24,10 @@
     background-color: ghostwhite;
 }
 
+.search:hover {
+    background-color: yellow;
+    border-color: black;
+}
 
 .publications {
     display: grid;
@@ -70,6 +74,7 @@
 
 .pages a:hover {
     text-decoration: underline;
+    font-size: 24pt;
 }
 
 .social-media {
