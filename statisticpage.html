@@ -20,53 +20,68 @@
   <body>
     <div id="navigation"></div>
     <!-- We will put navbar here when we submit our work, don't edit this line-->
-    <section class="side-top">
-      <h1>Statistik</h1>
-      <h2>
-        Här hittar du statistik om yrkeshögskoleutbildningar, konst- och
-        kulturutbildningar och utbildningar med endast tillsyn samt
-        tolkutbildningar inom folkbildningen.
-      </h2>
-      <p class="side-note">
-        Yrkeshögskoleutbildningar omfattar både yrkeshögskoleutbildning (YH) och
-        kvalificerad yrkesutbildning (KY).
-      </p>
 
-    </section>
-    <div class="static-container"></div>
-    <section class="dropdown-statistic">
-      <input class="search-bar-statistic" type="text" placeholder="Sök..." />
-    <h2>Välj utbildningsform</h2>
-    <select class="statistic" name="statistic" id="statistic">
-      <option>
-        <a href="https://www.myh.se/Statistik/Yrkeshogskoleutbildningar/"
-          >Yrkeshögskoleutbildningar</a
-        >
-      </option>
-      <option>
-        <a href="https://www.myh.se/Statistik/Konst--och-kulturutbildningar/"
-          >Konst- och kulturutbildningar och utbildningar med endast tillsyn</a
-        >
-      </option>
-      <option>
-        <a href="https://www.myh.se/Statistik/Tolkutbildningar/"
-          >Tolkutbildningar inom folkbildningen</a
-        >
-      </option>
-    </select>
-    <h2>Statistiska årsrapporter</h2>
-    <p>
-      Via länkarna nedan hittar du Myndigheten för yrkeshögskolans senaste
-      årsrapporter med samlad statistik om de utbildningsformer som vi ansvarar
-      för.
-    </p>
-    <select class="year-report" name="year-report" id="year-report">
-      <option value="2020">Statistisk årsrapport 2020</option>
-      <option value="2019">Statistisk årsrapport 2019</option>
-      <option value="2018">Statistisk årsrapport 2018</option>
-      <option value="2017">Statistisk årsrapport 2017</option>
-    </select>
-  </section>
+    <div class="container contentContainer" id="statistic">
+      <section>
+        <h2>
+          Här hittar du statistik om yrkeshögskoleutbildningar, konst- och
+          kulturutbildningar och utbildningar med endast tillsyn samt
+          tolkutbildningar inom folkbildningen.
+        </h2>
+        <p class="side-note">
+          Yrkeshögskoleutbildningar omfattar både yrkeshögskoleutbildning (YH)
+          och kvalificerad yrkesutbildning (KY).
+        </p>
+      </section>
+      <section class="statistic-container">
+        <div class="search-box-wrapper">
+          <label for="SearchBox">
+            <h2>Fritext</h2>
+          </label>
+          <input
+            class="searchBox"
+            id="Search"
+            name="Search"
+            type="text"
+            value=""
+            aria-describedby="ui-tooltip-0"
+          />
+        </div>
+        <div class="drop-down-wrapper">
+          <h2>Välj utbildningsform</h2>
+          <select class="statistic" name="statistic">
+            <option value="YHU">Yrkeshögskoleutbildningar</option>
+            <option value="KKU">
+              Konst- och kulturutbildningar och utbildningar med endast tillsyn
+            </option>
+            <option value="TIF">Tolkutbildningar inom folkbildningen</option>
+          </select>
+          <div class="statstic-btn-group">
+            <button type="submit" class="search-button">Sök</button>
+            <button type="reset" class="search-button clear-button">
+              Rensa
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="statistic-container">
+        <h2>Statistiska årsrapporter</h2>
+        <p>
+          Via länkarna nedan hittar du Myndigheten för yrkeshögskolans senaste
+          årsrapporter med samlad statistik om de utbildningsformer som vi
+          ansvarar för.
+        </p>
+        <select class="year-report" name="year-report" id="year-report">
+          <option value="2020">Statistisk årsrapport 2020</option>
+          <option value="2019">Statistisk årsrapport 2019</option>
+          <option value="2018">Statistisk årsrapport 2018</option>
+          <option value="2017">Statistisk årsrapport 2017</option>
+        </select>
+        <div class="statstic-btn-group">
+          <button type="submit" class="search-button">öppna</button>
+        </div>
+      </section>
+    </div>
     <!-- We will put footer here when we submit our work, don't edit this line-->
     <div id="footer"></div>
   </body>
