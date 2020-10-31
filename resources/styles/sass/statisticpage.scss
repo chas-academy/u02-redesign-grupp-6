@@ -1,27 +1,41 @@
-.side-top {
-  margin: 50px;
-  .side-note {
-    font-style: italic;
-  }
+@import "./variables.scss";
+.side-note {
+  font-style: italic;
 }
 
-.dropdown-statistic {
+.statistic-container {
   border: solid rgb(226, 226, 226) 1px;
-  padding: 20px;
+  padding: 0 20px 20px 20px;
   background-color: white;
-  margin: 50px;
-  margin-right: 400px;
-  margin-left: 400px;
-  .search-bar-statistic {
-    padding: 6px;
-    border: rgb(196, 196, 196) solid 1px;
-  }
-  .statistic {
-    padding: 6px;
-    border: rgb(196, 196, 196) solid 1px;
-  }
-  .year-report {
-    padding: 6px;
-    border: rgb(196, 196, 196) solid 1px;
-  }
+}
+
+.statstic-btn-group{
+  padding: 20px 0;
+}
+.search-button {
+  width:100px;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: $tertiary;
+  color: $primary;
+  border: 1px solid $tertiary;
+  white-space: nowrap;
+  padding: 10px 15px;
+  font-size: 19px;
+  line-height: 1.3;
+  border-radius: 0;
+}
+
+.clear-button {
+    margin-left: 10px;
+}
+
+#statistic select {
+   @media only screen and (max-width: 480px) {
+      width: 100%;
+    }
 }
