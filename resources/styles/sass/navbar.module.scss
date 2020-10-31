@@ -2,7 +2,7 @@ hr {
   margin: 10px;
 }
 
-header {
+.menu-top {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -10,18 +10,18 @@ header {
 #logo {
   margin: 10px;
   max-width: 450px;
-  animation: pop 1.2s 3;
+  // animation: pop 1.2s 3;
 }
 
-@keyframes pop {
-    0% { transform: translate(0%,  10%) scale(1.25, 0.75); }
-    50% { transform: translate(10%, 20%) scale(1, 1); }
-    55% { transform: translate(10%, 20%) rotate(15deg); }
-    60% { transform: translate(10%, 20%) rotate(-15deg); }
-    65% { transform: translate(10%, 20%) rotate(15deg); }
-    70% { transform: translate(10%, 20%) rotate(-15deg); }
-    100% { transform: translate(10%, 10%) scale(1.25, 0.75); }
-}
+// @keyframes pop {
+//     0% { transform: translate(0%,  10%) scale(1.25, 0.75); }
+//     50% { transform: translate(10%, 20%) scale(1, 1); }
+//     55% { transform: translate(10%, 20%) rotate(15deg); }
+//     60% { transform: translate(10%, 20%) rotate(-15deg); }
+//     65% { transform: translate(10%, 20%) rotate(15deg); }
+//     70% { transform: translate(10%, 20%) rotate(-15deg); }
+//     100% { transform: translate(10%, 10%) scale(1.25, 0.75); }
+// }
 
 
 .header-nav {
@@ -30,16 +30,21 @@ header {
   font-family: "Roboto", sans-serif;
   margin: 10px;
   display: grid;
+  .search-bar {
+    border: rgb(196, 196, 196) solid 1px;
+  }
 }
 
 .dropdown-content {
   text-align: justify;
   margin-right: 10px;
+  margin-left: 10px;
   font-weight: bold;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   display: flex;
   justify-content: space-between;
+  list-style: none;
 }
 
 .nav-links {
@@ -51,15 +56,15 @@ header {
   color: rgb(165, 165, 165);
 }
 
-@media screen and (min-width: 416px) {
+@media screen and (min-width: 415px) {
   button {
     display: none;
   }
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 414px) {
 
-  header {
+  .menu-top {
       display: grid;
       grid-template-columns: 1fr;
 

@@ -1,11 +1,13 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body {
+.newspage {
     margin: 1rem;
+
+#publication {
+    width: 100%;
+    height: 100%;
+    background: url("/resources/img/Pens-diagram.jpg") no-repeat center fixed;
+    background-size: cover;
+    z-index: -1;
 }
 
 .h1 {
@@ -13,9 +15,39 @@ body {
     margin-top: 3rem;
 }
 
+.pub-text {
+    margin-left: 3rem;
+    text-align: center;
+}
+
+.search {
+    margin-left: 3.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    height: 2rem;
+    background-color: ghostwhite;
+}
+
+.search:hover {
+    background-color: yellow;
+    border-color: black;
+}
+
+.search {
+    margin-left: 3.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    height: 2rem;
+    background-color: ghostwhite;
+}
+
+
 .publications {
     display: grid;
     grid-template-columns: auto;
+    margin-right: 2.5rem;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .publication-item {
@@ -23,6 +55,18 @@ body {
     /*border: 1px solid black;*/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
     padding: 1rem 1rem;
+    background-color: #eeeeee;
+}
+
+.publication-item:hover {
+    background-color: ghostwhite;
+
+}
+
+.publications a {
+    text-decoration: none;
+    color: black;
+
 }
 
 .active-page {
@@ -35,6 +79,18 @@ body {
     flex-direction: row;
     justify-content: space-around;
     margin-top: 3rem;
+    margin-right: 2.5rem;
+    list-style-type: none;
+    font-size: 12pt;
+}
+
+.pages a {
+    text-decoration: none;
+}
+
+.pages a:hover {
+    text-decoration: underline;
+    font-size: 24pt;
 }
 
 .social-media {
@@ -51,11 +107,27 @@ body {
     flex-direction: row;
     justify-content: space-around;
     margin-top: 2rem;
+    list-style-type: none;
 }
 
 .icon {
-    font-size: 400%;
-    color: dodgerblue;
+    font-size: 5rem;
+}
+
+.face {
+    color: #4267b2;
+}
+
+.twitter {
+    color: #38a1f3;
+}
+
+.envelope {
+    color: #38a1f3;
+}
+
+.icon:hover {
+    color: yellow;
 }
 
 p {
@@ -71,6 +143,7 @@ h2 {
     .publications {
         display: grid;
         grid-template-columns: auto auto;
+        margin-right: 3.5rem;
     }
 
     .publication-item {
@@ -79,4 +152,5 @@ h2 {
         /*border: 1px solid black;*/
         padding: 1rem 1rem;
     }
+}
 }
