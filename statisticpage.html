@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Statistik - Myndigheten för yrkeshögskolan</title>
+    <link rel="icon" href="./resources/img/logotype.svg" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
@@ -20,7 +21,65 @@
   <body>
     <div id="navigation"></div>
     <!-- We will put navbar here when we submit our work, don't edit this line-->
-    <div>Statistik</div>
+
+    <div class="container contentContainer" id="statistic">
+      <section>
+        <h2>
+          Här hittar du statistik om yrkeshögskoleutbildningar, konst- och
+          kulturutbildningar och utbildningar med endast tillsyn samt
+          tolkutbildningar inom folkbildningen.
+        </h2>
+        <p class="side-note">
+          Yrkeshögskoleutbildningar omfattar både yrkeshögskoleutbildning (YH)
+          och kvalificerad yrkesutbildning (KY).
+        </p>
+      </section>
+      <section class="statistic-container">
+        <div class="search-box-wrapper">
+          <h2><label> Fritext </label></h2>
+          <input
+            class="searchBox"
+            id="Search"
+            name="Search"
+            type="text"
+            value=""
+          />
+        </div>
+        <div class="drop-down-wrapper">
+          <h2>Välj utbildningsform</h2>
+          <select class="statistic" name="statistic">
+            <option value="YHU">Yrkeshögskoleutbildningar</option>
+            <option value="KKU">
+              Konst- och kulturutbildningar och utbildningar med endast tillsyn
+            </option>
+            <option value="TIF">Tolkutbildningar inom folkbildningen</option>
+          </select>
+          <div class="statstic-btn-group">
+            <button type="submit" class="search-button">Sök</button>
+            <button type="reset" class="search-button clear-button">
+              Rensa
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="statistic-container">
+        <h2>Statistiska årsrapporter</h2>
+        <p>
+          Via länkarna nedan hittar du Myndigheten för yrkeshögskolans senaste
+          årsrapporter med samlad statistik om de utbildningsformer som vi
+          ansvarar för.
+        </p>
+        <select class="year-report" name="year-report" id="year-report">
+          <option value="2020">Statistisk årsrapport 2020</option>
+          <option value="2019">Statistisk årsrapport 2019</option>
+          <option value="2018">Statistisk årsrapport 2018</option>
+          <option value="2017">Statistisk årsrapport 2017</option>
+        </select>
+        <div class="statstic-btn-group">
+          <button type="submit" class="search-button">öppna</button>
+        </div>
+      </section>
+    </div>
     <!-- We will put footer here when we submit our work, don't edit this line-->
     <div id="footer"></div>
   </body>

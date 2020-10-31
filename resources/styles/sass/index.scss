@@ -32,10 +32,16 @@
   display: block;
   li {
     display: inline-block;
-    width: 100%;
-    text-align: center;
+    width: 50%;
+    text-align: left;
+    @media only screen and (max-width: 768px) {
+      width: 80%;
+    }
     @media only screen and (max-width: 480px) {
-      text-align: left;
+      width: 100%;
+    }
+    @media only screen and (min-width: 1024px) {
+      width: 85%;
     }
   }
 }
@@ -62,7 +68,6 @@
 .row {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
 }
 
 .column {
@@ -70,6 +75,11 @@
   padding: 20px 0;
 }
 
+.banner-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 .banner-container {
   padding: 40px;
   @media (max-width: 768px) {
@@ -81,6 +91,7 @@
 }
 
 .banner-container a {
+    text-decoration: none !important;
   :hover {
     box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
       0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
@@ -105,9 +116,9 @@
   border-radius: 10px;
   padding: 20px;
   i {
-    color: #ff0;
+    color: $tertiary;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #333;
+    -webkit-text-stroke-color: $primary;
     margin: 20px;
     pointer-events: none;
   }

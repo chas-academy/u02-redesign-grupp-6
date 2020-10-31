@@ -1,0 +1,100 @@
+.biz-header {
+    display: inline-block;
+    margin-left: 5px;
+}
+.bizh2 {
+    width: 93%;
+    margin: 2%;
+    padding: 20px;
+    display: inline-block;
+    background-color: grey;
+    border-radius: 15px;
+    position: relative;
+}
+.biz-header p {
+     margin: 40px;
+     margin-top: 2px;
+     margin-bottom: 2px;
+     font-size: large;
+     float: left;
+ }
+.biz-content {
+    width: 100%;
+    margin: 20px;
+    margin-top: 1px;
+}
+.bizcolumn {
+    box-sizing: border-box;
+    background-color: rgb(221, 221, 221);
+    border-radius: 15px;
+    margin: 1% 1%;
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 500px;
+    align-items: center;
+
+}
+
+.bizrow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bizcontainer {
+    position: relative;
+}
+
+.biztext-img{
+    width: auto;
+    font-size: auto;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: black;
+    background: rgba(238, 237, 232, 0.5);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.bizimg {
+    border-radius: 15px;
+    width: 95%;
+}
+
+.bizcontainer p {
+    width: 90%;
+    padding: 10px;
+    margin-left: 20px;
+    text-align: center;
+
+}
+
+.biz-content a{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
+.bizcontainer a:hover{
+    background-color: rgb(235, 232, 232);
+    border-radius: 15px;
+    color: grey;
+    font-style: normal;
+    position: relative;
+    animation: move 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move {
+    from{top: -10px;}
+    to{top:15px; background-color: grey; color: yellow;}
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
