@@ -3,7 +3,7 @@
     margin-left: 5px;
 }
 .bizh2 {
-    width: 93%;
+    width: 91%;
     margin: 2%;
     padding: 20px;
     display: inline-block;
@@ -24,6 +24,7 @@
     margin-top: 1px;
 }
 .bizcolumn {
+    width: auto;
     box-sizing: border-box;
     background-color: rgb(221, 221, 221);
     border-radius: 15px;
@@ -64,9 +65,9 @@
 }
 
 .bizcontainer p {
-    width: 90%;
+    width: auto;
     padding: 10px;
-    margin-left: 20px;
+    margin-left: 10px;
     text-align: center;
 
 }
