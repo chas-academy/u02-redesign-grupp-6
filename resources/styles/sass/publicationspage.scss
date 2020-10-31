@@ -18,15 +18,15 @@
 
 .search {
     margin-left: 3.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
     margin-top: 1.5rem;
     height: 2rem;
     background-color: ghostwhite;
+    text-align: center;
 }
 
 .search:hover {
-    background-color: yellow;
-    border-color: black;
+    border: 3px solid green;
 }
 
 .publications {

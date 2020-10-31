@@ -18,7 +18,6 @@
       });
     </script>
   </head>
-  <body class="newspage">
   <body id="publication">
     <!-- We will put navbar here when we submit our work, don't edit this line-->
     <div id="navigation"></div>
@@ -29,15 +28,15 @@
           publikation, område och utgivningsår nedan.</p>
           
       <form class="searching" action="none">
-        <label for="search"></label>
+        <label for="all"></label>
 
-        <select class="search" name="searches">
+        <select class="search" name="searches" id="all">
           <option value="">Välj (Alla)</option>
           <option value="">Alla publikationer (228)</option>
         </select>
-        <label for="search"></label>
+        <label for="publication-type"></label>
 
-        <select class="search" name="searches">
+        <select class="search" name="searches" id="publication-type">
           <option value="">Välj (Publikationstyp)</option>
           <option value="">Alla publikationstyper</option>
           <option value="">Rapporter (93)</option>
@@ -45,9 +44,9 @@
           <option value="">Informationsmaterial (61)</option>
           <option value="">Årsredovisningar (11)</option>
         </select>
-        <label for="search"></label>
+        <label for="section"></label>
         
-        <select class="search" name="searches">
+        <select class="search" name="searches" id="section">
           <option value="">Välj (Område)</option>
           <option value="">Alla områden</option>
           <option value="">Yrkeshögskolan (142)</option>
@@ -57,9 +56,9 @@
           <option value="">Validering (12)</option>
           <option value="">SeQF (13)</option>
         </select>
-        <label for="search"></label>
+        <label for="year"></label>
         
-        <select class="search" name="searches">
+        <select class="search" name="searches" id="year">
           <option value="">Välj (År)</option>
           <option value="">Alla år</option>
           <option value="">2020 (24)</option>
