@@ -1,6 +1,6 @@
 .law-hline {
-  width: 95%;
-  margin: 2% /*20px 5px*/;
+  width: 94%;
+  margin: 2%;
   padding: 20px;
   margin-bottom: 5px;
   display: inline-block;
@@ -33,7 +33,7 @@
 
 .lawmenu li {
   float: left;
-  padding: 30px 30px;
+  padding: 20px 10px;
   margin: 2%;
   margin-left: 2%;
   margin-top: 2px;
@@ -45,7 +45,7 @@
   background-color: rgb(209, 207, 207);
   border-radius: 5px;
   color: yellow;
-  padding: 10px;
+  padding: 5px;
   position: relative;
   animation: move 5s;
   animation-fill-mode: forwards;
@@ -58,15 +58,14 @@
 
 .laws-img {
   float: left;
-  margin-top: 10px;
+  margin-top: 2%;
   margin-left: 2%;
   margin-right: 2%;
   border-radius: 15px;
 }
 
 .lawcol-img {
-  width: auto;
-  margin-top: 10px;
+  margin-top: 2%;
   margin-left: 2%;
   margin-right: 2%;
   border-radius: 15px;
