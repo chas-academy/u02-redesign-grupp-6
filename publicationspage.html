@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Publikationer - Myndigheten för yrkeshögskolan</title>
-    <link rel="icon" href="./resources/img/logotype.svg" />
+    <link rel="icon" href="./resources/img/logotype.svg">
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
@@ -19,62 +19,25 @@
       });
     </script>
   </head>
-  <body class="newspage">
   <body id="publication">
     <!-- We will put navbar here when we submit our work, don't edit this line-->
     <div id="navigation"></div>
     <main class="main">
       <h1 class="h1">Publikationer</h1>
-      <p class="pub-text">Här hittar du Myndigheten för yrkeshögskolans rapporter, faktablad,
-          broschyrer, informationsblad och andra publikationer. Du kan välja typ av
+      <p class="pub-text">Här hittar du Myndigheten för yrkeshögskolans rapporter, faktablad, 
+          broschyrer, informationsblad och andra publikationer. Du kan välja typ av 
           publikation, område och utgivningsår nedan.</p>
-
-          <!--<aside class="publications-list">
-            <h2>Förfina listningen</h2>
-            <div class="dropdown">
-                <button class="drop-btn">Välj publikation här</button>
-                <ul class="dropdown-content">
-                    <li><a href="#">Alla publikationer</a><p>228</p></li>
-                    <p>Visa träffar av publikationstyp</p>
-                    <li><a href="#">Alla publikationstyper</a></li>
-                    <li><a href="#">Rapporter</a><p>93</p></li>
-                    <li><a href="#">Återrapportering av regeringsuppdrag</a><p>64</p></li>
-                    <li><a href="#">Informationsmaterial</a><p>61</p></li>
-                    <li><a href="#">Årsredovisningar</a><p>11</p></li>
-                    <h2>Visa träffar från verksamhetsområde</h2>
-                    <li><a href="#">Alla områden</a></li>
-                    <li><a href="#">Yrkeshögskolan</a><p>142</p></li>
-                    <li><a href="#">Konst- och kulturutbildningar</a><p>32</p></li>
-                    <li><a href="#">Tolkutbildningar</a><p>19</p></li>
-                    <li><a href="#">Utbildningar med endast tillsyn</a><p>14</p></li>
-                    <li><a href="#">Validering</a><p>12</p></li>
-                    <li><a href="#">SeQF</a><p>13</p></li>
-                    <h2>Visa träffar från år</h2>
-                    <li><a href="#">Alla år</a></li>
-                    <li><a href="#">2020</a><p>24</p></li>
-                    <li><a href="#">2019</a><p>27</p></li>
-                    <li><a href="#">2018</a><p>23</p></li>
-                    <li><a href="#">2017</a><p>16</p></li>
-                    <li><a href="#">2016</a><p>26</p></li>
-                    <li><a href="#">2015</a><p>30</p></li>
-                    <li><a href="#">2014</a><p>19</p></li>
-                    <li><a href="#">2013</a><p>14</p></li>
-                    <li><a href="#">2012</a><p>24</p></li>
-                    <li><a href="#">2011</a><p>15</p></li>
-                    <li><a href="#">2010</a><p>10</p></li>
-                </ul>
-            </aside>-->
-
+          
       <form class="searching" action="none">
-        <label for="search"></label>
+        <label for="all"></label>
 
-        <select class="search" name="searches">
+        <select class="search" name="searches" id="all">
           <option value="">Välj (Alla)</option>
           <option value="">Alla publikationer (228)</option>
         </select>
-        <label for="search"></label>
+        <label for="publication-type"></label>
 
-        <select class="search" name="searches">
+        <select class="search" name="searches" id="publication-type">
           <option value="">Välj (Publikationstyp)</option>
           <option value="">Alla publikationstyper</option>
           <option value="">Rapporter (93)</option>
@@ -82,9 +45,9 @@
           <option value="">Informationsmaterial (61)</option>
           <option value="">Årsredovisningar (11)</option>
         </select>
-        <label for="search"></label>
-
-        <select class="search" name="searches">
+        <label for="section"></label>
+        
+        <select class="search" name="searches" id="section">
           <option value="">Välj (Område)</option>
           <option value="">Alla områden</option>
           <option value="">Yrkeshögskolan (142)</option>
@@ -94,9 +57,9 @@
           <option value="">Validering (12)</option>
           <option value="">SeQF (13)</option>
         </select>
-        <label for="search"></label>
-
-        <select class="search" name="searches">
+        <label for="year"></label>
+        
+        <select class="search" name="searches" id="year">
           <option value="">Välj (År)</option>
           <option value="">Alla år</option>
           <option value="">2020 (24)</option>

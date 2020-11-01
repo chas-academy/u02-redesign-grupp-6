@@ -1,7 +1,3 @@
-
-.newspage {
-    margin: 1rem;
-
 #publication {
     width: 100%;
     height: 100%;
@@ -22,37 +18,26 @@
 
 .search {
     margin-left: 3.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
     margin-top: 1.5rem;
     height: 2rem;
     background-color: ghostwhite;
+    text-align: center;
 }
 
 .search:hover {
-    background-color: yellow;
-    border-color: black;
+    border: 3px solid green;
 }
-
-.search {
-    margin-left: 3.5rem;
-    margin-bottom: 1.5rem;
-    margin-top: 1.5rem;
-    height: 2rem;
-    background-color: ghostwhite;
-}
-
 
 .publications {
     display: grid;
     grid-template-columns: auto;
     margin-right: 2.5rem;
-    text-decoration: none;
     list-style-type: none;
 }
 
 .publication-item {
     margin-top: 2rem;
-    /*border: 1px solid black;*/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
     padding: 1rem 1rem;
     background-color: #eeeeee;
@@ -60,13 +45,11 @@
 
 .publication-item:hover {
     background-color: ghostwhite;
-
 }
 
 .publications a {
     text-decoration: none;
     color: black;
-
 }
 
 .active-page {
@@ -149,8 +132,6 @@ h2 {
     .publication-item {
         margin-top: 2rem;
         margin-left: 1rem !important;
-        /*border: 1px solid black;*/
         padding: 1rem 1rem;
     }
-}
 }
